@@ -93,7 +93,7 @@ main .oggetto{
 }
 
 main .oggetto h1{
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -106,7 +106,6 @@ main aside{
   height: 500px;
   margin-bottom: 20px;
   float: left;
-  background-color: rgb(107, 250, 250);
 }
 
 main section{
@@ -114,5 +113,42 @@ main section{
   height: 500px;
   margin: 0 2%;
   float: left;
-  background-color: rgb(107, 250, 250);
 }
+
+.left .photo-left{
+  width: 100%;
+  height: 30%;
+  border-radius: 10px;
+  background-image: url(../img/img-1.jpg);
+  background-size: cover;
+  margin-bottom: 15px;
+}
+
+.descrizione h5{
+  color: black;
+  margin-bottom: 10px;
+}
+
+.descrizione p{
+  color: rgb(165, 164, 164)
+}
+
+.photo-central{
+  width: 100%;
+  height: 30%;
+  border-radius: 10px;
+  background-image: url(../img/banner-2.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15px;
+}
+
+.right .photo-right{
+  width: 100%;
+  height: 30%;
+  border-radius: 10px;
+  background-image: url(../img/img-3.jpg);
+  background-size: cover;
+  margin-bottom: 15px;
+}
+
