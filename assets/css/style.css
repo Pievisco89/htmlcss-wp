@@ -36,7 +36,7 @@ footer{
 
 header .logo{
   width: 40%;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 img{
@@ -52,18 +52,40 @@ img{
 
 .navigazione li a{
   color: rgb(165, 164, 164);
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
   padding-right: 20px;
 }
 
-header .immagine{
-  width: 100%;
-  height: 350px;
+.navigazione li a:hover{
+  color: red;
+}
+
+header .banner{
+  height: 380px;
   margin-top: 20px;
-  background-color: rgb(197, 190, 97);
+  background-image: url('../img/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+header .title{
+  color: rgb(255, 255, 255);
+  width: 55%;
+  margin-left: 30px;
+  padding-top: 220px;
+}
+
+header .banner h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+header .banner span{
+  font-size: 15px;
 }
 
 main .oggetto{
