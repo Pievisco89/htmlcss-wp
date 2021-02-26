@@ -64,6 +64,7 @@ img{
 }
 
 header .banner{
+  color: rgb(255, 255, 255);
   height: 380px;
   margin-top: 20px;
   background-image: url('../img/banner.jpg');
@@ -72,20 +73,18 @@ header .banner{
   border-radius: 10px;
 }
 
-header .title{
-  color: rgb(255, 255, 255);
+header .title h3{
+  font-size: 25px;
   width: 55%;
   margin-left: 30px;
   padding-top: 220px;
 }
 
-header .banner h3{
-  font-size: 25px;
-  margin-bottom: 10px;
-}
-
-header .banner span{
+header .banner p{
+  width: 55%;
   font-size: 15px;
+  margin-bottom: 10px;
+  margin-left: 30px;
 }
 
 main .oggetto{
