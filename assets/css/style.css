@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .clearfix::after {
@@ -44,9 +45,18 @@ img{
   border-right: 1px solid rgb(179, 177, 177);
 }
 
-.navigazione{
-  height: 80px;
-  background-color: violet;
+.navigazione li{
+  list-style: none;
+  display: inline;
+}
+
+.navigazione li a{
+  color: rgb(165, 164, 164);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 20px;
 }
 
 header .immagine{
